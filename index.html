@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <title>Mia's Portfolio</title>
-        <link rel="stylesheet" href="./assets/reset.css" media="screen"/>
-        <link rel="stylesheet" href="./assets/style.css" media="screen"/>
-    </head>
 
-    <body>
-        <header>
-         <!-- My name, links to sections (about me, my work, contact me) -->
-         <h1>Mia Olmedillo</h1>
-         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">Contact Me</a></li>
-         </ul>
-        </header>
-       <figure>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/reset.css" media="screen" />
+    <link rel="stylesheet" href="./assets/style.css" media="screen" />
+    <title>Mia's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <!-- My name, links to sections (about me, my work, contact me) -->
+        <h1>Mia Olmedillo</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <figure>
         <!-- picture of me with caption saying welcome to my portfolio -->
-       </figure>
-       <section>
-        <h3>About Me</h3>
-        <p>This is a paragraph that will describe my strengths and highlight my accomplishments</p>
-       </section>
-       <section>
-        <h3>My Work</h3>
-        <img src="#" alt="Big image of my strongest project">
-        <img src="#" alt="Smaller image of another project">
-        <img src="#" alt="Smaller image of another project">
-        <img src="#" alt="Smaller image of another project">
-        <img src="#" alt="Smaller image of another project">
-       </section>
-       <section>
-        <h3>Contact Me</h3>
+    </figure>
+    <section id="about">
+        <h2 class="title">About Me</h2>
+        <section class="section-content">
+            <p>This is a paragraph that will describe my strengths and highlight my accomplishments</p>
+        </section>
+    </section>
+    <section id="work">
+        <h2 class="title">My Work</h2>
+        <section class="section-content">
+            <img src="#" alt="Big image of my strongest project">
+            <img src="#" alt="Smaller image of another project">
+            <img src="#" alt="Smaller image of another project">
+            <img src="#" alt="Smaller image of another project">
+            <img src="#" alt="Smaller image of another project">
+        </section>
+    </section>
+    <section id="contact">
+        <h2 class="title">Contact Me</h2>
         <a href="tel:3059673946">(305)967-3946</a>
         <a href="mailto:miaolmedillo@gmail.com">miaolmedillo@gmail.com</a>
         <a href="https://github.com/TheRealMi">Github</a>
-       </section>
-    </body>
+    </section>
+</body>
+
 </html>
