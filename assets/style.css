@@ -9,6 +9,23 @@ body {
 }
 
 /* Styling for the nav bar at top of page */
-.header {
+header {
+    position: relative;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2B0D08;
+    color: #fff;
+}
+header h1{
+    display: inline;
+    font-size: 32px;
+}
+header ul li{
+    float: right;
+}
+header ul li a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
