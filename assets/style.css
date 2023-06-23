@@ -6,37 +6,36 @@ body {
 /* Parent level uses display: flex */
 header {
     display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
     font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2B0D08;
     color: #fff;
 }
 header h1{
     width: 50%;
+    font-size: 35px;
 }
 
-header nav{
+.navItems li {
+    display: inline-block;
+    padding: 0px 10px;
+    color: #fff;
+}
+.navItems li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contentSection {
+    display: flex;
+}
+
+.sectionTitle{
     width: 50%;
 }
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
-nav ul li{
-
-}
-nav ul li a{
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: underline;
-}
-
-figure {
-    background-image: url(https://placehold.co/1080x300);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
+.text {
+    width: 50%;
 }

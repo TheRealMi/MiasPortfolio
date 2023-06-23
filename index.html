@@ -13,7 +13,7 @@
         <!-- My name, links to sections (about me, my work, contact me) -->
         <h1>Mia Olmedillo</h1>
         <nav>
-            <ul>
+            <ul class="navItems">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#work">My Work</a></li>
                 <li><a href="#contact">Contact Me</a></li>
@@ -24,27 +24,47 @@
     <figure>
         <!-- picture of me with caption saying welcome to my portfolio -->
     </figure>
-    <section id="about">
-        <h2 class="title">About Me</h2>
-        <section class="section-content">
+    <section class="contentSection">
+        <section class="sectionTitle">
+            <h2>About Me</h2>
+        </section>
+        <section class="text">
             <p>This is a paragraph that will describe my strengths and highlight my accomplishments</p>
+            <p>This is a second paragraph to describe my strengths and highlight my accomplishments</p>
         </section>
     </section>
-    <section id="work">
-        <h2 class="title">My Work</h2>
-        <section class="section-content">
-            <img src="#" alt="Big image of my strongest project">
-            <img src="#" alt="Smaller image of another project">
-            <img src="#" alt="Smaller image of another project">
-            <img src="#" alt="Smaller image of another project">
-            <img src="#" alt="Smaller image of another project">
+    <section class="contentSection">
+        <section class="sectionTitle">
+            <h2>My Work</h2>
+        </section>
+        <section>
+            <section id="image1">
+                <h3>Project One</h3>
+                <img src="./assets/images/Challenge1.PNG" alt="Big image of challenge one">
+            </section>
+            <section class="projectCard">
+                <img src="https://placehold.co/600x400" alt="Smaller image of another project">
+            </section>
+            <section class="projectCard">
+                <img src="https://placehold.co/600x400" alt="Smaller image of another project">
+            </section>
+            <section class="projectCard">
+                <img src="https://placehold.co/600x400" alt="Smaller image of another project">
+            </section>
+            <section class="projectCard">
+                <img src="https://placehold.co/600x400" alt="Smaller image of another project">
+            </section>
         </section>
     </section>
-    <section id="contact">
-        <h2 class="title">Contact Me</h2>
-        <a href="tel:3059673946">(305)967-3946</a>
-        <a href="mailto:miaolmedillo@gmail.com">miaolmedillo@gmail.com</a>
-        <a href="https://github.com/TheRealMi">Github</a>
+    <section class="contentSection">
+        <section class="sectionTitle">
+            <h2>Contact Me</h2>
+        </section>
+        <section class="text">
+            <a href="tel:3059673946">(305)967-3946</a>
+            <a href="mailto:miaolmedillo@gmail.com">miaolmedillo@gmail.com</a>
+            <a href="https://github.com/TheRealMi">Github</a>
+        </section>
     </section>
 </body>
 
