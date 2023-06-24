@@ -1,3 +1,10 @@
+/* To Do: 
+add background image
+style text for page content 
+size images for responsiveness 
+add my actual content 
+make links work  */
+
 body {
     background-color: #FAF4EF;
 }
@@ -28,14 +35,26 @@ header h1{
     color: #fff;
 }
 
-
+/* Display flex for section spacing and alignment */
 .contentSection {
     display: flex;
 }
 
+/* Splits section titles to left of page */
 .sectionTitle{
     width: 50%;
 }
 .text {
     width: 50%;
+}
+
+/*Styling for project gallery*/
+.projectShowcase .projectCard{
+    display: inline-block;
+    width: 49%;
+}
+
+#image1 img {
+    width: 100%;
+    height: auto;
 }
