@@ -13,7 +13,7 @@ This website will showcase my work for potential employers to review. It will hi
 
 ## Installation
 
-You can access this project by clicking the following link:
+You can access this project by clicking the following link: https://therealmi.github.io/MiasPortfolio/
 
 ## Usage
 The page can be navigated by using the links in the nav bar. 
