@@ -64,6 +64,7 @@ img {
 .sectionTitle h2 {
     font-family: 'Varela Round', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 150%;
+    padding-right: 6%;
 }
 
 .text {
